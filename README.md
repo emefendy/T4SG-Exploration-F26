@@ -32,6 +32,8 @@ Open **http://localhost:3000**. The page updates every time you save a file. Pre
 | 5 | State, lifecycle (`useState`, `useEffect`) & debugging | `/state` | `app/state/page.tsx` |
 | 6 | Routing & dynamic routes (`[slug]`) | `/blog` | `app/blog/page.tsx`, `app/blog/[slug]/page.tsx` |
 | 7 | Putting it together: a dashboard | `/dashboard` | `app/dashboard/page.tsx` |
+| 8 | **Build an element step by step**: plain HTML → Tailwind → props → typed data → state | `/build` | `app/build/steps/Step1.tsx` … `Step5.tsx` |
+| 9 | **Full page demo**: HUDS dining menu recreation (sample data) with meal tabs, dietary filters and a nutrition report | `/huds-menu` | `app/huds-menu/` |
 | 🎤 | Empty page for live coding | `/live` | `app/live/page.tsx` |
 
 Reusable pieces:

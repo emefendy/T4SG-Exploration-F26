@@ -50,6 +50,18 @@ export const lectures: Lecture[] = [
     file: "app/dashboard/page.tsx",
   },
   {
+    href: "/build",
+    title: "8. Build an element, step by step",
+    summary: "From a hi-fi design to an interactive component in 5 steps (menu card)",
+    file: "app/build/steps/Step1.tsx … Step5.tsx",
+  },
+  {
+    href: "/huds-menu",
+    title: "9. Full page demo: HUDS dining menu",
+    summary: "A recreation of the FoodPro menu page: date picker, meal tabs, filters, nutrition report",
+    file: "app/huds-menu/",
+  },
+  {
     href: "/live",
     title: "🎤 Live coding",
     summary: "Empty page for coding along during lecture",
