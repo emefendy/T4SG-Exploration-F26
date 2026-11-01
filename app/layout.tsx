@@ -6,7 +6,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "T4SG Exploration F26",
-  description: "Starter repo for T4SG Exploration: HTML, Tailwind and TypeScript practice",
+  description: "Week 4 lecture demos: React, Next.js, TypeScript and Tailwind",
 };
 
 // The root layout wraps EVERY page. Anything here (like the navbar) shows up everywhere.
@@ -24,8 +24,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <Link href="/" className="hover:text-slate-900">
                 Home
               </Link>
-              <Link href="/example" className="hover:text-slate-900">
-                Example dashboard
+              <Link href="/dashboard" className="hover:text-slate-900">
+                Dashboard
               </Link>
             </div>
           </div>

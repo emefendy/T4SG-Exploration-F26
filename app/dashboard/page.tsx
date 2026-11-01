@@ -3,13 +3,13 @@ import StatCard from "@/components/StatCard";
 import TaskList from "@/components/TaskList";
 import { initialTasks, projects, stats } from "@/lib/mock-data";
 
-// This file lives at app/example/page.tsx, so it shows up at localhost:3000/example
-// It's a finished example: read it, then copy the patterns into your own page.
+// This file lives at app/dashboard/page.tsx, so it shows up at localhost:3000/dashboard
+// Everything from the earlier demos, combined into one hi-fi prototype section.
 export default function ExampleDashboard() {
   return (
     <div className="flex flex-col gap-8">
       <header>
-        <h1 className="text-3xl font-bold">Example dashboard</h1>
+        <h1 className="text-3xl font-bold">7. Putting it together: a dashboard</h1>
         <p className="mt-1 text-slate-600">
           Built from small components in <code className="font-mono text-sm">components/</code>{" "}
           with mock data from <code className="font-mono text-sm">lib/mock-data.ts</code>.
